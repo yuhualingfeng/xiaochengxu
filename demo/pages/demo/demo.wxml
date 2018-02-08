@@ -1,6 +1,12 @@
 <!--pages/demo/demo.wxml-->
-  <view class='wrap' style='display:flex;flex-direction:row;'>
-    <view class='flex-item' style='flex-grow:1;'>1</view>
-    <view class='flex-item' style='flex-grow:1;'>2</view>
-    <view class='flex-item' style='flex-grow:1;'>3</view>
+  <view class='product-lists'>
+    <view class='flex-item'>
+      
+    </view>
+    <view class='flex-item'></view>
+    <view class='flex-item'></view>
+    <view class='flex-item'></view>
+    <view class='flex-item'></view> 
+    <view class='flex-item'></view>
+    <view class='flex-item'></view>
   </view>

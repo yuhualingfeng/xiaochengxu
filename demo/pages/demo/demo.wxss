@@ -1,15 +1,16 @@
 /* pages/demo/demo.wxss */
-.wrap{
-  height: 100%;
+.product-lists{
+  padding:0 25rpx;
 }
 page{
   height: 100%;
 }
 .flex-item{
-  position: relative;
-  align-items: center;
-  justify-content: cneter;
-  height: 300rpx;
-  background:red;
+  height: 400rpx;
+  border:solid 1rpx red;
+  float:left;
+  width:330rpx;
+  box-sizing: border-box;
+  margin:0 10rpx 20rpx;
   
 }
