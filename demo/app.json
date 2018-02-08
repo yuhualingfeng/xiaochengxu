@@ -1,13 +1,15 @@
 {
-  "pages":[
+  "pages": [
+    "pages/demo/demo",
     "pages/index/index",
     "pages/logs/logs"
+    
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "花生壳商城",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
-  "debug":true
+  "debug": true
 }

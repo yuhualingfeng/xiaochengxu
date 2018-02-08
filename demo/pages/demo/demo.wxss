@@ -1,0 +1,15 @@
+/* pages/demo/demo.wxss */
+.wrap{
+  height: 100%;
+}
+page{
+  height: 100%;
+}
+.flex-item{
+  position: relative;
+  align-items: center;
+  justify-content: cneter;
+  height: 300rpx;
+  background:red;
+  
+}
