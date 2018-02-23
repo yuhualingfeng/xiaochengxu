@@ -1,12 +1,13 @@
 <!--pages/demo/demo.wxml-->
   <view class='product-lists'>
-    <view class='flex-item'>
-      
+    <view wx:for='{{productList}}' class='product-list'>
+      <image class='product-list-img' src='../../images/{{item.key}}.jpg'></image>
+      <view class='product-list-name hide-over' title='挚爱'>{{item.name}}</view>
+      <view class='product-list-subname hide-over'>{{item.subname}}</view>
+      <view class='product-list-price hide-over'>￥360<text class='product-list-normal-price'>￥499</text></view>
+      <view class='product-list-num'>
+        <view>已有306条评论</view>
+        <view>最快4小时送达</view>
+      </view>
     </view>
-    <view class='flex-item'></view>
-    <view class='flex-item'></view>
-    <view class='flex-item'></view>
-    <view class='flex-item'></view> 
-    <view class='flex-item'></view>
-    <view class='flex-item'></view>
   </view>

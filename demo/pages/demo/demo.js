@@ -5,7 +5,52 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    productList:[{
+     key:1,
+     name:'福寿康灵',
+     subname:'好利来',
+    },
+    {
+      key: 2,
+      name: '榴芒双拼',
+      subname: 'Yesido cake',
+    },
+    {
+        key: 3,
+        name: '玫瑰之爱',
+        subname: '好利来',
+    },
+    {
+      key: 4,
+      name: '浪漫华尔兹',
+      subname: '好利来',
+    },
+    {
+      key: 5,
+      name: '仙桃寿礼',
+      subname: '贝思客',
+    },
+    {
+      key: 6,
+      name: '么么哒',
+      subname: '安易客蛋糕',
+    },
+    {
+      key: 7,
+      name: '慕斯杯',
+      subname: '24克蛋糕',
+    },
+    {
+      key: 8,
+      name: '芒果慕斯',
+      subname: '南台月欧式蛋糕',
+    },
+    {
+      key: 9,
+      name: '哆啦A梦',
+      subname: 'yesido cake',
+    }
+    ]
   },
 
   /**
